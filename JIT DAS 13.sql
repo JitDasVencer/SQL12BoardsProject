@@ -1,0 +1,18 @@
+USE PITANGHSU;
+CREATE TABLE ELECTRICITY_BILL (
+CONSUMER_ID INT auto_increment primary KEY,
+NAME varchar(50),
+UNITS int
+);
+insert INTO ELECTRICITY_BILL (NAME, UNITS)
+values
+('AMIT', 320),
+('RIYA', 180),
+('RAHUL', 410),
+('NEHA', 260),
+('SUMAN', 390),
+('POOJA', 150),
+('KUNAL', 275),
+('ANITA', 305),
+('VIKAS', 450),
+('MEENA', 210);

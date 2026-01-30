@@ -1,0 +1,19 @@
+USE PITANGHSU;
+CREATE TABLE PATIENT (
+PID INT auto_increment primary KEY,
+NAME varchar(50),
+DISEASE VARCHAR(50),
+FEE INT
+);
+insert INTO PATIENT (NAME, DISEASE, FEE)
+values
+('AMIT', 'FLU', 500),
+('RAVI', 'COLD', 300),
+('NEHA', 'FEVER', 700),
+('SUMAN', 'FLU', 450),
+('KIRAN', 'INJURY', 1200),
+('ANITA', 'COLD', 350),
+('ROHIT', 'FEVER', 650),
+('POOJA', 'FLU', 500),
+('VIKAS', 'INJURY',1500 ),
+('MEENA', 'COLD', 400);

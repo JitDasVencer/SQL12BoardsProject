@@ -1,0 +1,18 @@
+USE PITANGHSU;
+CREATE TABLE MOVIE (
+MOVIE_ID INT auto_increment primary KEY,
+NAME varchar(50),
+PRICE int
+);
+insert INTO MOVIE (NAME, PRICE)
+values
+('JAWAN', 180),
+('PATHAAN', 220),
+('KGF', 200),
+('PUSHPA', 190),
+('RRR', 250),
+('AVATAR', 300),
+('TITANIC', 150),
+('INCEPTION', 280),
+('DANGAL', 170),
+('3 IDIOTS', 160);

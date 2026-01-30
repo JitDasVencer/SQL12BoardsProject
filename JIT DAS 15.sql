@@ -1,0 +1,19 @@
+USE PITANGHSU;
+CREATE TABLE COLLEGE_STUDENT (
+ROLL INT auto_increment primary KEY,
+NAME VARCHAR(50),
+COURSE VARCHAR(50),
+MARKS int
+);
+INSERT INTO COLLEGE_STUDENT (NAME, COURSE, MARKS)
+VALUES
+('AKASH', 'BSc', 74),
+('BHAVNA', 'BSc', 81),
+('CHIRAG', 'B Com', 69),
+('DIVYA', 'BA', 77),
+('ESHAN', 'BSc', 88),
+('FARAH', 'BA', 72),
+('GOPAL', 'B Com', 65),
+('HEENA', 'BSc', 91),
+('IRFAN', 'BA', 58),
+('JJYOTI', 'B Com', 83);

@@ -1,0 +1,19 @@
+USE PITANGHSU;
+CREATE TABLE SCHOOL_FEE (
+ROLL INT auto_increment primary KEY,
+NAME varchar(50),
+CLASS varchar(50),
+AMMOUNT int
+);
+insert INTO SCHOOL_FEE (NAME, CLASS, AMMOUNT)
+values
+('ARJUN', 'XII', 2500),
+('KAVITA', 'XII', 2600),
+('SOURAV', 'XII', 2400),
+('NISHA', 'XII', 2700),
+('ROHINI', 'XII', 2550),
+('MANOJ', 'XII', 2450),
+('ISHA', 'XII', 2800),
+('TARUN', 'XII', 2300),
+('PAYAL', 'XII', 2600),
+('DEEPAK', 'XII', 2500);

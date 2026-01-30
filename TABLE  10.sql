@@ -1,0 +1,10 @@
+USE PITANGHSU;
+select * FROM project
+where CATEGORY = 'ELECTRONICS';
+
+SELECT * FROM PROJECT
+where PRICE>20000;
+
+SELECT max(PRICE) AS MAXIMUM_PRICE FROM project;
+
+select count(*) AS TOTAL_PRODUCT FROM project;
